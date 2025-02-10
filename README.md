@@ -6,3 +6,9 @@ Solution for SSLHandshakeException in Android using Volley
 
 javax.net.ssl.SSLHandshakeException: java.security.cert.CertPathValidatorException: Trust anchor for certification path not found.
 com.android.volley.NoConnectionError: javax.net.ssl.SSLHandshakeException: java.security.cert.CertPathValidatorException: Trust anchor for certification path not found.
+
+**Solution:**
+
+Call this method before making a Volley request:  
+
+SSLUtils.allowAllSSL();
