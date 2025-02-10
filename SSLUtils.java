@@ -1,5 +1,3 @@
-package com.wrms.expense.app.utility;
-
 import java.security.cert.X509Certificate;
 
 import javax.net.ssl.HostnameVerifier;
